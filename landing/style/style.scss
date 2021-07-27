@@ -5,6 +5,7 @@ $button-font-family: cursive;
 @import "scss/pageone";
 @import "scss/buttons";
 @import "scss/pagetwo";
+@import "scss/pagethree";
 
 body > * {
   font-family: $base-font-family;
@@ -27,6 +28,15 @@ body > * {
   @media only screen and (max-width: 990px)  {
     width: 100%;
     max-width: 100vh;
+  }
+}
+
+.content-section {
+  padding: 50px;
+  margin: 50px 0;
+
+  @media only screen and (max-width: 990px) {
+    padding: 20px;
   }
 }
 
