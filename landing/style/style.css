@@ -1,0 +1,83 @@
+:root {
+  --main-bg-color: brown;
+}
+
+/* background-color: var(--main-bg-color); */
+.orange {
+  color: #f5b727;
+}
+
+.page-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.phone-button {
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 10px 20px;
+}
+
+body > * {
+  font-family: -webkit-pictograph;
+}
+
+.container-box {
+  padding: 20px;
+}
+
+.nav-bar-title {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 10%;
+  font-family: system-ui;
+}
+
+.nav-bar {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+}
+
+.nav-content {
+  width: 75%;
+  text-align: right;
+}
+
+.each-nav {
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  font-size: 18px;
+  width: 20%;
+  color: black;
+  margin-right: 20px;
+  font-family: -webkit-pictograph;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.subscribe {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 22px;
+  text-decoration: none;
+  font-family: cursive;
+  font-size: 14px;
+}
+
+.subscribe:hover {
+  background-color: darkblue;
+}
+
+.nav-button {
+  width: 15%;
+}
+/*# sourceMappingURL=style.css.map */
