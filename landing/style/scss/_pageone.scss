@@ -1,11 +1,19 @@
 .content-one {
   padding: 50px;
+
+  @media only screen and (max-width: 990px) {
+    padding: 20px;
+  }
 }
 
 .left-contents {
   display: flex;
   align-items: center;
   height: 100%;
+
+  &-container {
+    width: 100%;
+  }
 }
 
 .phone {
@@ -17,7 +25,7 @@
   &-img {
     width: 100%;
     height: 315px;
-    box-shadow: rgb(0 0 0 / 2%) 0px 1px 3px 0px, rgb(27 31 35 / 15%) 0px 0px 0px 1px;
+    box-shadow: 0 0 10px;
     border-radius: 7px;
   }
 
@@ -49,12 +57,19 @@
   border-radius: 50px;
   padding: 0px 10px 0px 0px;
   width: 50%;
+  height: 35px;
+  min-width: 280px;
 
   &-flag {
-    width: 24px;
-    height: 24px;
+    width: 35px;
+    height: 35px;
     background-color: orange;
     border-radius: 50%;
+
+    @media only screen and (max-width: 990px) {
+      width: 50px;
+      height: 50px;
+    }
   }
 
   &-name {
@@ -62,6 +77,11 @@
     vertical-align: middle;
     align-items: center;
     display: flex;
+  }
+
+  @media only screen and (max-width: 990px) {
+    width: 100%;
+    height: 50px;
   }
 }
 
@@ -81,4 +101,9 @@
   display: inline-flex;
   justify-content: flex-end;
   width: 100%;
+  padding: 20px 0;
+
+  @media only screen and (max-width: 990px) {
+    display: block;
+  }
 }

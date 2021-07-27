@@ -26,5 +26,52 @@
   width: 200px;
 }
 .nav-button {
-  width: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title-button{
+  display: inline-flex;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.mobile-button-grp{
+  width: -webkit-fill-available;
+  justify-content: flex-end;
+  text-align: -webkit-right;
+
+}
+.mobile-button{
+  display: none;
+
+  @media only screen and (max-width: 768px)  {
+    display: block;
+  }
+}
+
+.desktop-button{
+  display: block;
+
+  @media only screen and (max-width: 768px)  {
+    display: none;
+  }
+}
+
+.navigation-icon{
+  display: none;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  margin-right: 20px;
+  @media only screen and (max-width: 768px)  {
+    display: block;
+
+  }
+}
+
+.mobile-full-width{
+  width: 100%;
+  margin: 10px 0;
 }
