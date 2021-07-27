@@ -1,9 +1,84 @@
-.phone-button{
-    background-color: red;
-    border: none;
-    border-radius: 20px;
-    color: white;
-    font-weight: 500;
-    text-transform: capitalize;
-    padding: 10px 20px;
+.content-one {
+  padding: 50px;
+}
+
+.left-contents {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.phone {
+  border: 1px solid darkgray;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  &-img {
+    width: 100%;
+    height: 315px;
+    box-shadow: rgb(0 0 0 / 2%) 0px 1px 3px 0px, rgb(27 31 35 / 15%) 0px 0px 0px 1px;
+    border-radius: 7px;
+  }
+
+  .title {
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .contents {
+    text-align: center;
+    color: gray;
+  }
+}
+
+.phone-button {
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  width: 90%;
+}
+
+.achievement {
+  display: inline-flex;
+  background-color: #ebeef2;
+  border-radius: 50px;
+  padding: 0px 10px 0px 0px;
+  width: 50%;
+
+  &-flag {
+    width: 24px;
+    height: 24px;
+    background-color: orange;
+    border-radius: 50%;
+  }
+
+  &-name {
+    padding-left: 10px;
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+  }
+}
+
+.eye-catching {
+  font-size: 55px;
+  width: 90%;
+  font-family: fantasy;
+}
+
+.small-description {
+  font-size: 20px;
+  color: gray;
+  font-family: cursive;
+}
+
+.one-button-group {
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 100%;
 }

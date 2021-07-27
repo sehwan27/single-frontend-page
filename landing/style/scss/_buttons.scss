@@ -1,0 +1,30 @@
+.free-try {
+  width: 150px;
+}
+
+.primary-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 22px;
+  text-decoration: none;
+  font-family: $button-font-family;
+  font-size: 14px;
+
+  &:hover {
+    background-color: darkblue;
+  }
+}
+
+.link-button {
+  background-color: transparent;
+  color: darkblue;
+  text-decoration: none;
+  border: none;
+  font-family: $button-font-family;
+  width: 200px;
+}
+.nav-button {
+  width: 15%;
+}

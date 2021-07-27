@@ -1,13 +1,30 @@
 $base-font-family: -webkit-pictograph;
+$button-font-family: cursive;
 
 @import "scss/fonts";
 @import "scss/pageone";
+@import "scss/buttons";
 
 body > * {
   font-family: $base-font-family;
 }
+
 .container-box {
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.container-content{
+  width: 80%;
+  max-width: 1240px;
+  min-width: 1000px;
+
+  @media only screen and (max-width: 990px)  {
+    width: 100%;
+    min-width: none;
+    max-width: 100vh;
+  }
 }
 
 .nav-bar-title {
@@ -35,23 +52,4 @@ body > * {
   margin-right: 20px;
   font-family: $base-font-family;
   vertical-align: -webkit-baseline-middle;
-}
-
-.subscribe {
-  background-color: blue;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 22px;
-  text-decoration: none;
-  font-family: cursive;
-  font-size: 14px;
-
-  &:hover {
-    background-color: darkblue;
-  }
-}
-
-.nav-button {
-  width: 15%;
 }
