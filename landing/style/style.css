@@ -13,12 +13,12 @@
   }
 }
 
-.content-one {
+.content-section {
   padding: 50px;
 }
 
 @media only screen and (max-width: 990px) {
-  .content-one {
+  .content-section {
     padding: 20px;
   }
 }
@@ -238,6 +238,28 @@
 .mobile-full-width {
   width: 100%;
   margin: 10px 0;
+}
+
+.sponsor {
+  width: 100%;
+  background-color: transparent;
+  overflow: auto;
+}
+
+.sponsor-content {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  min-width: 670px;
+}
+
+.each-sponsor {
+  width: 100px;
+  height: 100px;
+  border-radius: 75px;
+  background-color: orange;
+  margin: 0 20px;
 }
 
 body > * {
