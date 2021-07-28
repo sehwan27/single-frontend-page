@@ -54,7 +54,8 @@
 }
 
 .phone-button {
-  background-color: red;
+  background-color: #f9c1b1;
+  background-image: linear-gradient(315deg, #f9c1b1 0%, #fb8085 74%);
   border: none;
   border-radius: 20px;
   color: white;
@@ -62,6 +63,11 @@
   text-transform: capitalize;
   padding: 10px 20px;
   width: 90%;
+}
+
+.phone-button:hover {
+  background-color: #d19592;
+  background-image: linear-gradient(315deg, #d19592 0%, #c81f70 74%);
 }
 
 .achievement {
@@ -163,6 +169,10 @@
   border: none;
   font-family: cursive;
   width: 200px;
+}
+
+.link-button:hover {
+  text-decoration: underline;
 }
 
 .nav-button {
