@@ -205,7 +205,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .mobile-button {
     display: block;
   }
@@ -215,7 +215,7 @@
   display: block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .desktop-button {
     display: none;
   }
@@ -229,7 +229,7 @@
   margin-right: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .navigation-icon {
     display: block;
   }
@@ -411,7 +411,7 @@ body > * {
   display: inline-flex;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .nav-content {
     display: none;
   }

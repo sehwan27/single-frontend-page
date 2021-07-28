@@ -87,7 +87,7 @@ body > * {
   display: inline-flex;
   // min-width: 410px;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 767px) {
     // width: 100%;
     display: none;
   }

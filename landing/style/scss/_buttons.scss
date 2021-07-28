@@ -50,7 +50,7 @@
 .mobile-button{
   display: none;
 
-  @media only screen and (max-width: 768px)  {
+  @media only screen and (max-width: 767px)  {
     display: block;
   }
 }
@@ -58,7 +58,7 @@
 .desktop-button{
   display: block;
 
-  @media only screen and (max-width: 768px)  {
+  @media only screen and (max-width: 767px)  {
     display: none;
   }
 }
@@ -69,7 +69,7 @@
   height: 50px;
   border: 1px solid black;
   margin-right: 20px;
-  @media only screen and (max-width: 768px)  {
+  @media only screen and (max-width: 767px)  {
     display: block;
 
   }
